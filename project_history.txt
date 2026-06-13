@@ -1,0 +1,74 @@
+    1  nmcli connection show
+    2  nmcli connection modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+    3  sudo nmcli connection up eth0
+    4  sudo nmcli connection down enp0s3
+    5  sudo nmcli connection up enp0s3
+    6  hostnamectl set-hostname mephi-2026.domain.local
+    7  ip route
+    8  ping -c 4 8.8.8.8 > /tmp/network_check.txt
+    9  ping -c 4 192.168.1.1 >> /tmp/network_check.txt
+   10  ping -c 4 8.8.8.8
+   11  nmcli connection show
+   12  sudo nmcli connection modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+   13  sudo nmcli connection down enp0s3
+   14  sudo nmcli connection up enp0s3
+   15  ip route
+   16  ping -c 4 8.8.8.8 > /tmp/network_check.txt
+   17  ping -c 4 192.168.1.1 >> /tmp/network_check.txt
+   18  hostnamectl set-hostname mephi-2026.domain.local
+   19  nmcli connection show
+   20  sudo nmcli connection modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+   21  sudo nmcli connection down enp0s3
+   22  sudo nmcli connection up enp0s3
+   23  hostnamectl set-hostname mephi-2026.domain.local
+   24  ping -c 4 8.8.8.8 > /tmp/network_check.txt
+   25  nmcli connection show
+   26  nmcli con show
+   27  ping -c 4 8.8.8.8
+   28  ping -c 4 192.168.1.1
+   29  nmcli device
+   30  ip addr show enp0s3
+   31  ip addr show enp0s8
+   32  nmcli con show
+   33  sudo nmcli connection modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+   34  sudo nmcli connection down enp0s3
+   35  sudo nmcli connection up enp0s3
+   36  hostnamectl set-hostname mephi-2026.domain.local
+   37  ip route
+   38  ping -c 4 8.8.8.8 > /tmp/network_check.txt
+   39  ping -c 4 192.168.1.1 >> /tmp/network_check.txt
+   40  nmcli con show
+   41  sudo nmcli connection modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+   42  sudo nmcli connection up enp0s3
+   43  ping -c 4 192.168.1.1
+   44  ping -c 4 8.8.8.8
+   45  nmcli con show
+   46  sudo nmcli connection modify enp0s3 ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns 8.8.8.8 ipv4.method manual
+   47  sudo nmcli connection up enp0s3
+   48  hostnamectl set-hostname mephi-2026.domain.local
+   49  ping -c 4 8.8.8.8 > /tmp/network_check.txt
+   50  ping -c 4 192.168.1.1 >> /tmp/network_check.txt
+   51  dnf install -y nginx tcpdump libcup-ng-utils
+   52  sudo dnf install -y nginx tcpdump libcup-ng-utils
+   53  sudo dnf install -y nginx tcpdump libcap-ng-utils
+   54  cd /tmp
+   55  rpm -ih --replacepkgs tcpdump-*.rpm
+   56  rpm -ivh --replacepkgs tcpdump-*.rpm
+   57  dnf makecache
+   58  rpm -ivh --replacepkgs tcpdump-*.rpm
+   59  dnf download --alldeps tcpdump
+   60  rpm -ivh --replacepkgs tcpdump-*.rpm
+   61  dnf clean all && dnf makecache
+   62  sudo dnf install -y nginx tcpdump libcap-ng-utils
+   63  sudo rpm -ivh --replacepkgs tcpdump-*.rpm
+   64  ls
+   65  sudo rpm -ivh --replacepkgs tcpdump-4.995-1.red80.x86_64.rpm
+   66  rpm -ivh --replacepkgs tcpdump-*.rpm
+   67  sudo dnf install glibc
+   68  dnf download --arch=x86_64 tcpdump
+   69  rpm -ivh --replacepkgs tcpdump-*.rpm
+   70  sudo rpm -ivh --replacepkgs tcpdump-*.rpm
+   71  lsblk
+   72  sudo mkfs.ext4 -L MEPHI_DATA /dev/sdb1
+   73  sudo fdisk -l /dev/sdb
+   74  history > ~/project_history.txt
