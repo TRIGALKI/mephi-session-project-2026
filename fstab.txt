@@ -14,4 +14,3 @@ UUID=4690dc81-71ef-4bbb-8b44-f620d32114dd /boot                   ext4    defaul
 UUID=43bb02fd-0f79-4b7e-b3b3-a2942406cae2 /home                   ext4    defaults        1 2
 UUID=5e93d5d1-f359-40fe-80c5-ace8d8a7ace4 none                    swap    defaults        0 0
 LABEL=MEPHI_DATA /data/mephi-web ext4 defaults 0 2
-LABEL=MEPHI_DATA /data/mephi-web ext4 defaults 0 2
