@@ -1,0 +1,8 @@
+    1  echo "Hello from Student: 368890" > /data/mephi-web/index.html
+    2  curl http://localhost
+    3  curl http://192.168.1.100
+    4  cat /data/mephi-web/index.html > ~/index.html
+    5  curl -s http://localhost > ~/curl_output.txt
+    6  curl -s http://192.168.1.100 >> ~/curl_output.txt
+    7  stat /data/mephi-web > ~/permissions.txt
+    8  history > ~/project_history.txt
